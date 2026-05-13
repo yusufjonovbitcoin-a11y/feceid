@@ -33,6 +33,10 @@
   },
   "name": "react",
   "private": true,
+  "description": "Admin panel (faceid / visa clients)",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "vite build",
     "dev": "vite",
@@ -41,5 +45,5 @@
     "type-check": "tsc --noEmit --project tsconfig.app.json"
   },
   "type": "module",
-  "version": "0.0.0"
+  "version": "0.1.0"
 }
